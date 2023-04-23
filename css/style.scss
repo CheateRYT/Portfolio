@@ -168,6 +168,7 @@ nav {
   color: #5c62ec;
 }
 .projects_card {
+  column-gap: 30px;
   row-gap: 30px;
   display: flex;
   flex-wrap: wrap;
@@ -178,6 +179,7 @@ nav {
     scale: 1.05;
   }
   cursor: pointer;
+  max-width: 370px;
   transition: scale 0.3s ease-in;
   background-color: #ffffff;
   border-radius: 10px;
@@ -188,6 +190,7 @@ nav {
   border-radius: 10px;
 }
 .project_title {
+  padding-top: 15px;
   padding-left: 25px;
   font-family: "DM Sans";
   font-style: normal;
